@@ -44,5 +44,5 @@ Then run the build script in the terminal:
 
 ```
 cd sources
-sh build.sh
+gftools builder config.yml
 ```
