@@ -3,7 +3,7 @@
 DisplayStrings = (
 "0123456789/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fraction ½/onethird/twothirds ¼¾/oneeighth/threeeighths/fiveeighths/seveneighths",
 "/Ecircumflextilde",
-""
+noHOt
 );
 classes = (
 {
@@ -41,10 +41,6 @@ value = 1;
 },
 {
 name = "Use Line Breaks";
-value = 1;
-},
-{
-name = "Enforce Compatibility Check";
 value = 1;
 }
 );
@@ -1086,7 +1082,7 @@ position = "{-496, 316}";
 );
 horizontalStems = (
 103,
-122,
+120,
 129
 );
 iconName = SemiCondensed;
@@ -1096,7 +1092,7 @@ verticalStems = (
 147,
 155
 );
-weightValue = 24;
+weightValue = 400;
 widthValue = 518;
 xHeight = 563;
 }
@@ -21731,12 +21727,6 @@ position = "{270, 563}";
 }
 );
 background = {
-components = (
-{
-name = n_arch;
-transform = "{1, 0, 0, 1, 201, 0}";
-}
-);
 paths = (
 {
 closed = 1;
@@ -55432,19 +55422,12 @@ width = 414;
 );
 instances = (
 {
-interpolationWeight = 48;
+interpolationWeight = 400;
 interpolationWidth = 518;
 instanceInterpolations = {
 "849A9C4C-BF7C-40C5-8614-1FD725A2A379" = 1;
 };
-name = Text;
-},
-{
-interpolationWeight = 96;
-instanceInterpolations = {
-"849A9C4C-BF7C-40C5-8614-1FD725A2A379" = 1;
-};
-name = Display;
+name = Regular;
 }
 );
 kerning = {
@@ -56943,10 +56926,10 @@ GSDimensionPlugin.Dimensions = {
 "849A9C4C-BF7C-40C5-8614-1FD725A2A379" = {
 HH = "122";
 HV = "147";
-OH = "123";
+OH = "129";
 OV = "155";
 nV = "140";
-nd = "103";
+nd = "119";
 oH = "107";
 oV = "143";
 tH = "106";
