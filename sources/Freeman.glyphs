@@ -3,7 +3,8 @@
 DisplayStrings = (
 "0123456789/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fraction ½/onethird/twothirds ¼¾/oneeighth/threeeighths/fiveeighths/seveneighths",
 "/Ecircumflextilde",
-noHOt
+noHOt,
+"/nbspace"
 );
 classes = (
 {
@@ -42,9 +43,18 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+.null,
+CR,
+nbspace
+);
 }
 );
-date = "2021-02-25 13:51:29 +0000";
+date = "2022-12-01 21:27:05 +0000";
 designer = "Vernon Adams, Rodrigo Fuenzalida";
 designerURL = "http://www.sansoxygen.com";
 disablesNiceNames = 1;
@@ -740,6 +750,7 @@ sub imacron by imacron.sc;
 sub iogonek by iogonek.sc;
 sub itilde by itilde.sc;
 sub j by j.sc;
+sub jdotless by j.sc;
 sub jcircumflex by jcircumflex.sc;
 sub k by k.sc;
 sub kcommaaccent by kcommaaccent.sc;
@@ -1098,6 +1109,142 @@ xHeight = 563;
 }
 );
 glyphs = (
+{
+glyphname = .notdef;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"523 0 LINE",
+"523 750 LINE",
+"129 750 LINE",
+"129 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"256 65 LINE",
+"325 274 LINE",
+"292 374 LINE",
+"196 77 LINE",
+"196 668 LINE",
+"183 708 LINE",
+"242 728 LINE",
+"256 685 LINE",
+"393 685 LINE",
+"325 474 LINE",
+"357 374 LINE",
+"456 677 LINE",
+"456 68 LINE",
+"466 37 LINE",
+"402 37 LINE",
+"393 65 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"196 668 LINE",
+"292 374 LINE",
+"325 474 LINE",
+"256 685 LINE",
+"196 685 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"325 274 LINE",
+"393 65 LINE",
+"456 65 LINE",
+"456 68 LINE",
+"357 374 LINE"
+);
+}
+);
+};
+layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+paths = (
+{
+closed = 1;
+nodes = (
+"523 0 LINE",
+"523 750 LINE",
+"129 750 LINE",
+"129 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"256 685 LINE",
+"393 685 LINE",
+"325 474 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"456 677 LINE",
+"456 68 LINE",
+"357 374 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"196 77 LINE",
+"196 668 LINE",
+"292 374 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"256 65 LINE",
+"325 275 LINE",
+"393 65 LINE"
+);
+}
+);
+width = 648;
+}
+);
+},
+{
+glyphname = .null;
+layers = (
+{
+layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+width = 0;
+}
+);
+},
+{
+glyphname = CR;
+layers = (
+{
+layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+width = 244;
+}
+);
+unicode = 000D;
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+width = 244;
+}
+);
+widthMetricsKey = space;
+unicode = 00A0;
+},
 {
 glyphname = A;
 layers = (
@@ -43580,16 +43727,6 @@ width = 244;
 unicode = 0020;
 },
 {
-glyphname = nbspace;
-layers = (
-{
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 244;
-}
-);
-unicode = 00A0;
-},
-{
 glyphname = thinspace;
 layers = (
 {
@@ -43608,122 +43745,6 @@ width = 0;
 }
 );
 unicode = 200B;
-},
-{
-glyphname = CR;
-layers = (
-{
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 244;
-}
-);
-unicode = 000D;
-},
-{
-glyphname = .notdef;
-layers = (
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"523 0 LINE",
-"523 750 LINE",
-"129 750 LINE",
-"129 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"256 65 LINE",
-"325 274 LINE",
-"292 374 LINE",
-"196 77 LINE",
-"196 668 LINE",
-"183 708 LINE",
-"242 728 LINE",
-"256 685 LINE",
-"393 685 LINE",
-"325 474 LINE",
-"357 374 LINE",
-"456 677 LINE",
-"456 68 LINE",
-"466 37 LINE",
-"402 37 LINE",
-"393 65 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"196 668 LINE",
-"292 374 LINE",
-"325 474 LINE",
-"256 685 LINE",
-"196 685 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"325 274 LINE",
-"393 65 LINE",
-"456 65 LINE",
-"456 68 LINE",
-"357 374 LINE"
-);
-}
-);
-};
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-paths = (
-{
-closed = 1;
-nodes = (
-"523 0 LINE",
-"523 750 LINE",
-"129 750 LINE",
-"129 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"256 685 LINE",
-"393 685 LINE",
-"325 474 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"456 677 LINE",
-"456 68 LINE",
-"357 374 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"196 77 LINE",
-"196 668 LINE",
-"292 374 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"256 65 LINE",
-"325 275 LINE",
-"393 65 LINE"
-);
-}
-);
-width = 648;
-}
-);
 },
 {
 glyphname = cedi;
@@ -55056,16 +55077,6 @@ nodes = (
 width = 0;
 }
 );
-},
-{
-glyphname = NULL;
-layers = (
-{
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
-width = 0;
-}
-);
-unicode = 0000;
 },
 {
 glyphname = uniA7AE;
