@@ -2,9 +2,13 @@
 .appVersion = "1352";
 DisplayStrings = (
 "0123456789/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fraction ½/onethird/twothirds ¼¾/oneeighth/threeeighths/fiveeighths/seveneighths",
-"/Ecircumflextilde",
+"/Aringacute aHbcdefghijklmnpopqrstuvwxyz",
 noHOt,
-"/nbspace"
+"/nbspace",
+"/Abrevehookabove/commaaccentcomb.case/space/commaaccentcomb ./space/Scommaaccent",
+"/Otildeacute",
+"/dieresiscomb.case/space/dotaccentcomb.case/space/gravecomb.case/space/acutecomb.case/space/circumflexcomb.case/space/caroncomb.case/space/brevecomb.case/space/ringcomb.case/space/tildecomb.case/space/macroncomb.case/space/hookabovecomb.case/space/dblgravecomb.case/space/breveinvertedcomb.case/space/commaturnedabovecomb.case/space/horncomb.case/space/dotbelowcomb.case/space/dieresisbelowcomb.case/space/commaaccentcomb.case/space/cedillacomb.case/space/ogonekcomb.case/space/brevebelowcomb.case/space/macronbelowcomb.case/space/strokelongcomb.case/space/circumflexcomb_acutecomb.case/space/circumflexcomb_gravecomb.case/space/circumflexcomb_hookabovecomb.case/space/circumflexcomb_tildecomb.case/space/space/space/space/space",
+"AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde/Acaron Â/circumflexcomb_acutecomb/Acircumflexacute/Acircumflexdotbelow/circumflexcomb_gravecomb/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adieresismacron/Adotaccent/Adotbelow/Adotmacron À/Ahookabove/Ainvertedbreve/Amacron Å/Aringacute"
 );
 classes = (
 {
@@ -1018,45 +1022,45 @@ alignmentZones = (
 "{1063, 15}",
 "{750, 15}",
 "{600, 15}",
-"{563, 15}",
+"{564, 15}",
 "{0, -15}",
 "{-158, -15}",
-"{-327, -15}"
+"{-250, -15}"
 );
-ascender = 1063;
+ascender = 1050;
 capHeight = 750;
 customParameters = (
 {
 name = typoAscender;
-value = 1089;
+value = 1050;
 },
 {
 name = typoDescender;
-value = -329;
+value = -280;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 1252;
+name = hheaAscender;
+value = 1050;
 },
 {
-name = winDescent;
-value = 359;
+name = hheaDescender;
+value = -280;
 },
 {
 name = hheaLineGap;
 value = 0;
 },
 {
-name = hheaAscender;
-value = 1089;
+name = winAscent;
+value = 1169;
 },
 {
-name = hheaDescender;
-value = -329;
+name = winDescent;
+value = 349;
 },
 {
 name = strikeoutPosition;
@@ -1067,7 +1071,7 @@ name = strikeoutSize;
 value = 50;
 }
 );
-descender = -327;
+descender = -250;
 guideLines = (
 {
 position = "{-1412, 1118}";
@@ -1079,7 +1083,7 @@ position = "{50, -173}";
 position = "{-344, 425}";
 },
 {
-position = "{97, 840}";
+position = "{93, 880}";
 },
 {
 position = "{387, 792}";
@@ -1105,7 +1109,7 @@ verticalStems = (
 );
 weightValue = 400;
 widthValue = 518;
-xHeight = 563;
+xHeight = 564;
 }
 );
 glyphs = (
@@ -5476,7 +5480,7 @@ position = "{212, 754}";
 },
 {
 angle = 7;
-position = "{519, 754}";
+position = "{522, 750}";
 }
 );
 layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
@@ -21885,13 +21889,45 @@ nodes = (
 "201 0 LINE",
 "201 390 LINE"
 );
+},
+{
+closed = 1;
+nodes = (
+"201 0 LINE",
+"201 390 LINE",
+"195 390 LINE",
+"195 564 LINE",
+"61 547 LINE",
+"61 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"475 0 LINE",
+"475 404 LINE SMOOTH",
+"475 521 OFFCURVE",
+"424 573 OFFCURVE",
+"345 573 CURVE SMOOTH",
+"268 573 OFFCURVE",
+"207 526 OFFCURVE",
+"191 418 CURVE",
+"201 287 LINE",
+"201 382 OFFCURVE",
+"233 454 OFFCURVE",
+"280 454 CURVE SMOOTH",
+"329 454 OFFCURVE",
+"335 408 OFFCURVE",
+"335 348 CURVE SMOOTH",
+"335 0 LINE"
+);
 }
 );
 };
 guideLines = (
 {
 angle = 7;
-position = "{195, 564}";
+position = "{195, 552}";
 },
 {
 angle = -83;
@@ -21920,9 +21956,9 @@ nodes = (
 "475 521 OFFCURVE",
 "424 573 OFFCURVE",
 "345 573 CURVE SMOOTH",
-"268 573 OFFCURVE",
-"207 526 OFFCURVE",
-"191 418 CURVE",
+"257 573 OFFCURVE",
+"202 512 OFFCURVE",
+"186 404 CURVE",
 "201 287 LINE",
 "201 382 OFFCURVE",
 "233 454 OFFCURVE",
@@ -52064,17 +52100,17 @@ paths = (
 {
 closed = 1;
 nodes = (
-"32 -338 OFFCURVE",
-"70 -286 OFFCURVE",
-"70 -233 CURVE SMOOTH",
-"70 -82 LINE",
-"-71 -82 LINE",
-"-71 -223 LINE",
-"1 -223 LINE",
-"1 -256 OFFCURVE",
-"-16 -282 OFFCURVE",
-"-47 -294 CURVE",
-"-21 -359 LINE"
+"32 -318 OFFCURVE",
+"70 -266 OFFCURVE",
+"70 -213 CURVE SMOOTH",
+"70 -62 LINE",
+"-71 -62 LINE",
+"-71 -203 LINE",
+"1 -203 LINE",
+"1 -236 OFFCURVE",
+"-16 -262 OFFCURVE",
+"-47 -274 CURVE",
+"-21 -339 LINE"
 );
 }
 );
@@ -56929,7 +56965,7 @@ sterling = -20;
 };
 };
 };
-manufacturer = "Vernon Adams";
+manufacturer = "Rodrigo Fuenzalida";
 manufacturerURL = "http://www.sansoxygen.com";
 unitsPerEm = 1000;
 userData = {
