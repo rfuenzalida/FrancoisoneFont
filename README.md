@@ -1,7 +1,9 @@
-# Francois One Font Project
-by Vernon Adams
+# Freeman Font Project
+by Rodrigo Fuenzalida
 
 Francois One is a reworking of traditional sans serif gothic display typeface forms. In Francois One, the earlier letter forms have been digitised and then reshaped for use as a webfont, the counters have been opened up a little and the stems optimised for use as bold display font in modern web browsers. Slanted stem terminals have been added to give the face added visual play.
+
+![Sample Image](documentation/image1.png)
 
 This project is a fork from the old Google font repository.
 
@@ -22,20 +24,26 @@ To install all the Python tools into a virtualenv, do the following:
 From terminal:
 
 ```
-
 cd your/local/project/directory
+```
 
-#once in the project folder create a virtual environment. 
+Once in the project folder create a virtual environment. 
 This step has to be done just once, the first time:
 
+```
 python3 -m venv venv
+```
 
-#activate the virtual environment
+Activate the virtual environment
+This step should be done each time you will work on the project
 
+```
 source venv/bin/activate
+```
 
-#install the required dependencies
+Install the required dependencies
 
+```
 pip install -r requirements.txt
 
 ```
