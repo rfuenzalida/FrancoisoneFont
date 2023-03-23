@@ -1,7 +1,7 @@
 # Freeman Font Project
 by Rodrigo Fuenzalida
 
-Francois One is a reworking of traditional sans serif gothic display typeface forms. In Francois One, the earlier letter forms have been digitised and then reshaped for use as a webfont, the counters have been opened up a little and the stems optimised for use as bold display font in modern web browsers. Slanted stem terminals have been added to give the face added visual play.
+Freeman is a re interpretation of traditional sans serif gothic display typeface forms where some elements of the handwitten style are added to give a bit more of persoanlity to the design. In Freeman, the counters have been opened up a little and the stems optimised for use as bold display font in modern web browsers. Slanted stem terminals have been added to give the face added visual play.
 
 ![Sample Image](documentation/image1.png)
 
