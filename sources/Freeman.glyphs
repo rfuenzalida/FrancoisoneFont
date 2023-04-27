@@ -1,5 +1,8 @@
 {
 .appVersion = "3151";
+DisplayStrings = (
+"/Otildeacute"
+);
 classes = (
 {
 automatic = 1;
@@ -1041,7 +1044,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1169;
+value = 1170;
 },
 {
 name = winDescent;
@@ -44460,7 +44463,6 @@ width = 401;
 unicode = 0192;
 },
 {
-color = 0;
 glyphname = baht;
 layers = (
 {
@@ -46645,7 +46647,6 @@ width = 771;
 );
 },
 {
-color = 0;
 glyphname = bitcoin;
 layers = (
 {
@@ -47669,7 +47670,6 @@ width = 573;
 unicode = 20B2;
 },
 {
-color = 0;
 glyphname = hryvnia;
 layers = (
 {
@@ -47825,7 +47825,6 @@ width = 609;
 unicode = 20AD;
 },
 {
-color = 0;
 glyphname = lari;
 layers = (
 {
@@ -48599,7 +48598,6 @@ width = 557;
 unicode = 20B9;
 },
 {
-color = 0;
 glyphname = sheqel;
 layers = (
 {
@@ -48823,7 +48821,6 @@ width = 484;
 unicode = 00A3;
 },
 {
-color = 0;
 glyphname = tenge;
 layers = (
 {
@@ -48858,7 +48855,6 @@ width = 475;
 unicode = 20B8;
 },
 {
-color = 0;
 glyphname = tugrik;
 layers = (
 {
