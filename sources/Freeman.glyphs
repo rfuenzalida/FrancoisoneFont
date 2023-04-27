@@ -44,7 +44,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = vendorID;
-value = NEWT;
+value = GOOG;
 }
 );
 date = "2023-04-26 20:44:06 +0000";
