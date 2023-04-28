@@ -18,7 +18,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2023 The Freeman Project Authors (https://github.com/googlefonts/Freeman.git)";
+copyright = "Copyright 2023 The Freeman Project Authors (https://github.com/rfuenzalida/Freeman)";
 customParameters = (
 {
 name = fsType;
