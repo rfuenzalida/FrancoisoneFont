@@ -15,6 +15,12 @@ This project is a fork from the old Google font repository.
 - Revision of glyphs, anchors and components.
 - Extended set to cover African Latin alphabets.
 
+# Freeman changes from Faancois One:
+- Lowercase characters have a different encounter between stems and curves.
+- Changed some proportions.
+- Revised curves smoothness, weights distribution and characters drawings.
+- Bigger counters for better readability at smaller sizes.  
+
 ## Building the Fonts
 
 The font is built using fontmake and gftools post processing script. Tools are all python based, so it must be previously installed.
