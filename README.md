@@ -17,9 +17,9 @@ This project is a fork from the old Google font repository.
 
 # Freeman changes from Francois One:
 - Lowercase characters have a different encounter between stems and curves.
-- Changed some proportions.
+- Changed some proportions to make them more even.
 - Revised curves smoothness, weights distribution and characters drawings.
-- Bigger counters for better readability at smaller sizes.  
+- Bigger counters for better readability at smaller sizes. Most of the changes seemed to be focused on this, improve readability.
 
 ## Building the Fonts
 
