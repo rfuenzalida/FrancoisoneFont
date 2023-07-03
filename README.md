@@ -15,7 +15,7 @@ This project is a fork from the old Google font repository.
 - Revision of glyphs, anchors and components.
 - Extended set to cover African Latin alphabets.
 
-# Freeman changes from Faancois One:
+# Freeman changes from Francois One:
 - Lowercase characters have a different encounter between stems and curves.
 - Changed some proportions.
 - Revised curves smoothness, weights distribution and characters drawings.
