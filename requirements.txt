@@ -1,5 +1,3 @@
-fontmake
-fontbakery
-gftools
+gftools==0.9.34
 drawbot-skia>=0.4.8
 freetype-py
