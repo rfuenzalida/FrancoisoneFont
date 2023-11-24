@@ -43,7 +43,7 @@ jobs:
           sudo apt install libharfbuzz-dev libharfbuzz-bin libglib2.0-dev libcairo2-dev
           python -m pip install --upgrade pip
           pip install freetype-py
-          pip install --pre fontbakery
+          python -m pip install --pre --upgrade fontbakery[all]
           pip install gftools
       - name: Install ttfautohint
         run: |
