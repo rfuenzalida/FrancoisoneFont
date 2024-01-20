@@ -99912,7 +99912,7 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "Vernon Adams, Rodrigo Fuenzalida, Aoife Mooney";
+value = "Vernon Adams, Aoife Mooney, Rodrigo Fuenzalida";
 }
 );
 },
@@ -99935,14 +99935,14 @@ value = "http://www.rfuenzalida.com";
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
