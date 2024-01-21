@@ -2,11 +2,8 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-"Xhosa
-
-Potsane nefolosi uNdumiso Mabena kwisigaba sesibini. Ekugqibeleni iProteas ikhe phantsi isitya sigcwele ngoothinti abasibhozo bonke kwitumente equka amazwe afana noMzantsi namanye amazwe. Nakuba kunjalo, izithili zinako ukubandakanya ootitshala abaninzi. Oko ke wayequmbile ukusukela ngoko,” utshilo uMvenya. Zalisa ngokumalunga nesifundo ngasinye. Wonke umntu ufuna imfesane. Tshekisha ukuba umfundi ngamnye uyizalisile ingcaciso engaye buqu ngokuchanekileyo na. Ukufika kwam apho ndafikela kusapho lwam. Qaphela unciphise ubude bomthi ku 2-2,5 m kuba oku kulula xa kusetyenzwa ngesandla. Khuzwayo kunyaka ophelileyo. Gcina abantu kude kwihagu zakho. Abathathi-nxaxheba baya kuzihlawulela ngokwabo iindleko zohambo. Ziyacelwa izikolo ezinqwenela ukufundisa amakhondo ezifundo athile kwezoBugcisa neNkcubeko kumaBakala 8–9 ukuba zenze isicelo soko kuMcebisi ngezeKharityhulam oyiNtloko (Chief Curriculum Advisor) okwi-EMDC yazo ukufumana imvume yokwenjenjalo. Babeshishina kakuhle namasimi abo echumile. Makhe sijonge nganye kula manqaku kufutshane. Umyalezo wam kwabasakhasayo kukuthi mabaqinise esikolweni. Xa belahlekile, balahlekelwa ngumyinge wemali abasengozini. Hayi, ukuzibulala akuhlawulelwa yile inshorensi. Zweli Mkhize uthi intsholongwane yeKhorona ixhalabise wonke umntu kwaye uluntu maluyazi ukuba lungayifumana xa lungazikhuseli ngendlela. Abanye kwabagqirha bathi benze imisebenzi yesintu ngokwabo kwaye baxhela isilwanyana xa uninzi lwabo sele lolukile, ukunikeza ulwaluko indawo ‘yesintu’ ngokuse sikweni. UGomba uthi ebetyelele izibhedlele eMthatha ngoLwesibini kwimozulu ebinetha futhi ibanda. Sele sibona ukuba ukunqanda ukuhambahamba yindlela yokulwa nale ntsholongwane. Ndicela uncedisane ke nam. Aba babini baphuma kwilizwe laseMalawi. Lithuba ke eli. Ubathengisa, kodwa ngoku ufumana i-1'300",
 "saƭtfkand",
-"꞊dhɛo3 \"'yö bñam ̵Srɔc BɃĐƗɈꝀȽⱠƟⱣɌŦƵƀđħꝁⱡɵƶ/ldoublebar.sc/obarred.sc/rstroke.sc/tbar.sc/zstroke.sc ĐÐewohĩ",
+"꞊dhɛo3 \"'yö bñam ̵Srɔoc BɃĐƗɈꝀȽⱠƟⱣɌŦƵƀđħꝁⱡɵƶ/ldoublebar.sc/obarred.sc/rstroke.sc/tbar.sc/zstroke.sc ĐÐewohĩ",
 "̵ BɃDĐIƗɈꝀȽⱠƟⱣɌŦZƵbƀdđhħkꝁⱡɵƶ/ldoublebar.sc/obarred.sc/rstroke.sc/tbar.sc/z.sc/zstroke.sc",
 "/strokelongcomb.case   ĦɄɎᵽʉɏ/Usmallstroke.sc/hbar.sc/ubar.sc/ystroke.sc",
 "/strokeshortcomb.narrow  ıiɨȷɟɉlƚrɍŧ/istroke.dotless/bstroke.sc/eth.sc/istroke.sc/jdotlessstroke.sc/jstroke.sc/kstroke.sc/lbar.sc/pstroke.sc p ǂ ǂ",
@@ -34777,11 +34774,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (232,0);
+pos = (233,0);
 },
 {
 name = top;
-pos = (232,564);
+pos = (233,564);
 }
 );
 background = {
@@ -34789,32 +34786,97 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(352,-13,o),
-(433,103,o),
-(433,282,cs),
-(433,456,o),
-(368,570,o),
-(226,570,cs),
-(115,570,o),
-(41,481,o),
-(29,375,c),
-(157,361,l),
-(159,401,o),
-(173,462,o),
-(221,462,cs),
-(272,462,o),
-(290,392,o),
-(290,282,cs),
-(290,184,o),
-(278,95,o),
-(221,95,cs),
-(175,95,o),
-(163,157,o),
-(159,207,c),
-(29,181,l),
-(38,63,o),
-(110,-13,o),
-(221,-13,cs)
+(353,-13,o),
+(434,103,o),
+(434,282,cs),
+(434,456,o),
+(369,570,o),
+(227,570,cs),
+(116,570,o),
+(42,481,o),
+(30,375,c),
+(158,361,l),
+(160,401,o),
+(174,462,o),
+(222,462,cs),
+(273,462,o),
+(291,392,o),
+(291,282,cs),
+(291,184,o),
+(279,95,o),
+(222,95,cs),
+(176,95,o),
+(164,157,o),
+(160,207,c),
+(30,181,l),
+(39,63,o),
+(111,-13,o),
+(222,-13,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(855,-13,o),
+(934,94,o),
+(934,279,cs),
+(934,456,o),
+(855,570,o),
+(720,570,cs),
+(584,570,o),
+(508,454,o),
+(508,279,cs),
+(508,95,o),
+(585,-13,o),
+(720,-13,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(661,95,o),
+(651,190,o),
+(651,279,cs),
+(651,355,o),
+(660,462,o),
+(720,462,cs),
+(780,462,o),
+(791,354,o),
+(791,279,cs),
+(791,190,o),
+(780,95,o),
+(720,95,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(857,-13,o),
+(933,101,o),
+(933,286,cs),
+(933,457,o),
+(858,573,o),
+(730,573,cs),
+(617,573,o),
+(541,491,o),
+(531,379,c),
+(659,353,l),
+(663,403,o),
+(675,463,o),
+(721,463,cs),
+(760,463,o),
+(790,426,o),
+(790,292,cs),
+(790,147,o),
+(765,95,o),
+(721,95,cs),
+(673,95,o),
+(659,156,o),
+(657,196,c),
+(529,182,l),
+(537,73,o),
+(600,-13,o),
+(715,-13,cs)
 );
 }
 );
@@ -34824,32 +34886,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(356,-13,o),
-(432,101,o),
-(432,286,cs),
-(432,457,o),
-(357,573,o),
-(229,573,cs),
-(116,573,o),
-(40,491,o),
-(30,379,c),
-(158,353,l),
+(357,-13,o),
+(433,109,o),
+(433,291,cs),
+(433,457,o),
+(358,573,o),
+(228,573,cs),
+(120,573,o),
+(54,502,o),
+(28,379,c),
+(156,353,l),
 (162,403,o),
-(174,463,o),
-(222,463,cs),
-(275,463,o),
-(289,387,o),
-(289,278,cs),
-(289,147,o),
-(264,95,o),
-(220,95,cs),
-(172,95,o),
-(158,156,o),
-(156,196,c),
-(28,182,l),
-(36,73,o),
-(99,-13,o),
-(214,-13,cs)
+(175,463,o),
+(221,463,cs),
+(260,463,o),
+(290,426,o),
+(290,292,cs),
+(290,147,o),
+(265,95,o),
+(221,95,cs),
+(179,95,o),
+(159,141,o),
+(157,196,c),
+(29,182,l),
+(37,73,o),
+(87,-13,o),
+(220,-13,cs)
 );
 }
 );
@@ -34869,7 +34931,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 462;
+width = 463;
 }
 );
 metricLeft = "=|c";
