@@ -1,7 +1,7 @@
 # Freeman Font Project
 by Rodrigo Fuenzalida
 
-Freeman is a re interpretation of traditional sans serif gothic display typeface forms where some elements of the handwitten style are added to give a bit more of persoanlity to the design. In Freeman, the counters have been opened up a little and the stems optimised for use as bold display font in modern web browsers. Slanted stem terminals have been added to give the face added visual play.
+Freeman is a re interpretation of traditional sans serif gothic display typeface, based on the work done by Vernon Adams on Francoise One and expanding upon it, some elements of the handwitten style are added to give a bit more of personality to the design. Besides that counters have been opened up a little and the stems optimised for use as bold display font in modern web browsers. Slanted stem terminals have been added to give the face added visual play, most of these upgrades plus a tighter spacing where the result of the work during the Summer of Type. After that most of the work consisted in updating the character set to give full SSA African support to the font. 
 
 ![Sample Image](documentation/image1.png)
 
