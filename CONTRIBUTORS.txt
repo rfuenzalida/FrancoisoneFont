@@ -14,4 +14,5 @@ Lasse Fister <lasse@graphicore.de>
 Marc Foley <m.foley.88@gmail.com>
 CrystalType <stellarmaris.novachrystalia@gmail.com>
 Thomas Jockin <thomas@thomasjockin.com>
+Aoife Mooney
 Rodrigo Fuenzalida <fuenzarodrigo@gmail.com>
