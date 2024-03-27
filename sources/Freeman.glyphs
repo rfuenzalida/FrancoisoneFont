@@ -29,7 +29,9 @@ Y,
 /tildebelowcomb.case 
 /macronbelowcomb.case ḆḎḴḺṈṞṮẔ/macroncomb.case",
 "/circumflexcomb.narrow Îî/icircumflex.sc 
-/caroncomb.narrow Ǐǐ/icaron.sc/brevecomb.narrow Ĭĭ/ibreve.sc/tildecomb.narrow Ĩĩỡữ/ohorntilde.sc/breveinvertedcomb.narrow Ȋȋ"
+/caroncomb.narrow Ǐǐ/icaron.sc/brevecomb.narrow Ĭĭ/ibreve.sc/tildecomb.narrow Ĩĩỡữ/ohorntilde.sc/breveinvertedcomb.narrow Ȋȋ",
+"`",
+"˛"
 );
 axes = (
 {
@@ -96736,13 +96738,13 @@ width = 310;
 );
 },
 {
+color = 4;
 glyphname = dieresis;
 layers = (
 {
 layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
 shapes = (
 {
-pos = (225,0);
 ref = dieresiscomb;
 }
 );
@@ -96762,19 +96764,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 450;
+width = 350;
 }
 );
 unicode = 168;
 },
 {
+color = 4;
 glyphname = dotaccent;
 layers = (
 {
 layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
 shapes = (
 {
-pos = (125,0);
 ref = dotaccentcomb;
 }
 );
@@ -96794,12 +96796,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 250;
+width = 150;
 }
 );
 unicode = 729;
 },
 {
+color = 4;
 glyphname = grave;
 layers = (
 {
@@ -96819,7 +96822,6 @@ nodes = (
 layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
 shapes = (
 {
-pos = (205,0);
 ref = gravecomb;
 }
 );
@@ -96839,19 +96841,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 343;
+width = 223;
 }
 );
 unicode = 96;
 },
 {
+color = 4;
 glyphname = acute;
 layers = (
 {
 layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
 shapes = (
 {
-pos = (144,0);
 ref = acutecomb;
 }
 );
@@ -96871,12 +96873,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 343;
+width = 223;
 }
 );
 unicode = 180;
 },
 {
+color = 4;
 glyphname = hungarumlaut;
 layers = (
 {
@@ -96933,7 +96936,6 @@ nodes = (
 layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
 shapes = (
 {
-pos = (20,0);
 ref = hungarumlautcomb;
 }
 );
@@ -96953,12 +96955,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 362;
+width = 322;
 }
 );
 unicode = 733;
 },
 {
+color = 4;
 glyphname = circumflex;
 layers = (
 {
@@ -96973,7 +96976,6 @@ ref = circumflexcomb;
 layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
 shapes = (
 {
-pos = (214,0);
 ref = circumflexcomb;
 }
 );
@@ -96993,16 +96995,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 428;
+width = 308;
 }
 );
 unicode = 710;
 },
 {
+color = 0;
 glyphname = firsttonechinese;
 layers = (
 {
-layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+background = {
 shapes = (
 {
 closed = 1;
@@ -97012,6 +97015,13 @@ nodes = (
 (60,721,l),
 (60,606,l)
 );
+}
+);
+};
+layerId = "849A9C4C-BF7C-40C5-8614-1FD725A2A379";
+shapes = (
+{
+ref = macroncomb;
 }
 );
 userData = {
@@ -97030,7 +97040,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 409;
+width = 300;
 }
 );
 unicode = 713;
@@ -97483,6 +97493,7 @@ width = 227;
 unicode = 184;
 },
 {
+color = 4;
 glyphname = ogonek;
 layers = (
 {
