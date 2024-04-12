@@ -1,33 +1,8 @@
 {
-.appVersion = "3236";
+.appVersion = "3257";
 .formatVersion = 3;
 DisplayStrings = (
-"ṤṦǛ",
-"/slash.case/slash.case/backslash.case/backslash.case/guillemetright.case/guilsinglright.case",
-Y,
-"/hookabovecomb.case ẢẺỈỎỞỦỬỶ
- /dblgravecomb.case ȄȈȌȐȔ /breveinvertedcomb.case ȆȎȒȖ /commaturnedabovecomb.case  /horncomb.case ƠUƯưúʉŭǔûṷȕüǘṳǚǜǖụùủűȗūṻųůũṹṵ",
-"̇i/dieresiscomb.narrow Ïï/idieresis.sc  /dieresiscomb_acutecomb.narrow ḯ/idieresisacute.sc  /dieresiscomb_acutecomb.case.narrow Ḯ",
-"/commaaccentcomb.case ḐĢĶĻŅŖȘȚ/Lcommaaccent.loclMAH/Ncommaaccent.loclMAH 
-/ogonekcomb.case ĘĮǪǬŲ
-/brevebelowcomb.case Ḫ
-/tildebelowcomb.case 
-/macronbelowcomb.case ḆḎḴḺṈṞṮẔ/macroncomb.case",
-"/circumflexcomb.narrow Îî/icircumflex.sc 
-/caroncomb.narrow Ǐǐ/icaron.sc/brevecomb.narrow Ĭĭ/ibreve.sc/tildecomb.narrow Ĩĩỡữ/ohorntilde.sc/breveinvertedcomb.narrow Ȋȋ",
-"˛",
-"trương̣ặậạḅḍệẹḥịḳḷḹṃṇộọợṛṝṣṩṭụựṿẉỵẓ/idotbelow.dotless/abrevedotbelow.sc/acircumflexdotbelow.sc/adotbelow.sc/bdotbelow.sc/ddotbelow.sc/ecircumflexdotbelow.sc/edotbelow.sc/hdotbelow.sc/idotbelow.sc/kdotbelow.sc/ldotbelow.sc/ldotbelowmacron.sc/mdotbelow.sc/ndotbelow.sc/ocircumflexdotbelow.sc/odotbelow.sc/ohorndotbelow.sc/rdotbelow.sc/rdotbelowmacron.sc/sdotbelow.sc/sdotbelowdotaccent.sc/tdotbelow.sc/udotbelow.sc/uhorndotbelow.sc/vdotbelow.sc/wdotbelow.sc/ydotbelow.sc/zdotbelow.sc MỘT",
-"/dieresiscomb_gravecomb/dieresiscomb_acutecomb/dieresiscomb_caroncomb/dieresiscomb_macroncomb/dotaccentcomb_macroncomb/gravecomb_macroncomb",
-"/acutecomb_dotaccentcomb/acutecomb_macroncomb/caroncomb_dotaccentcomb/tildecomb_dieresiscomb/tildecomb_acutecomb/tildecomb_macroncomb/macroncomb_gravecomb/macroncomb_acutecomb ̐",
-"/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb",
-"/dieresiscomb_gravecomb.case/dieresiscomb_acutecomb.case/dieresiscomb_caroncomb.case/dieresiscomb_macroncomb.case/dotaccentcomb_macroncomb.case/acutecomb_dotaccentcomb.case/circumflexcomb_gravecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_tildecomb.case",
-"/circumflexcomb_hookabovecomb.case/caroncomb_dotaccentcomb.case/brevecomb_gravecomb.case/brevecomb_acutecomb.case/brevecomb_tildecomb.case/brevecomb_hookabovecomb.case/tildecomb_dieresiscomb.case/tildecomb_acutecomb.case/tildecomb_macroncomb.case",
-"/macroncomb_dieresiscomb.case/dieresiscomb_acutecomb.narrow/dieresiscomb_acutecomb.case.narrow",
-"̈",
-"/dieresiscomb_gravecomb/dieresiscomb_acutecomb/dieresiscomb_caroncomb/dieresiscomb_macroncomb/dotaccentcomb_macroncomb/gravecomb_macroncomb/acutecomb_dotaccentcomb/acutecomb_macroncomb/caroncomb_dotaccentcomb/tildecomb_dieresiscomb/tildecomb_acutecomb/tildecomb_macroncomb/macroncomb_gravecomb/macroncomb_acutecomb ̐",
-"/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/dieresiscomb_gravecomb.case/dieresiscomb_acutecomb.case/dieresiscomb_caroncomb.case/dieresiscomb_macroncomb.case/dotaccentcomb_macroncomb.case/acutecomb_dotaccentcomb.case/circumflexcomb_gravecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_tildecomb.case",
-"/circumflexcomb_hookabovecomb.case/caroncomb_dotaccentcomb.case/brevecomb_gravecomb.case/brevecomb_acutecomb.case/brevecomb_tildecomb.case/brevecomb_hookabovecomb.case/tildecomb_dieresiscomb.case/tildecomb_acutecomb.case/tildecomb_macroncomb.case/macroncomb_dieresiscomb.case/dieresiscomb_acutecomb.narrow/dieresiscomb_acutecomb.case.narrow",
-"/ringcomb_acutecomb ǻ/aringacute.sc"
+"Ǉ/zero.tf Ǉ/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf"
 );
 axes = (
 {
@@ -104342,7 +104317,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The Freeman Project Authors (https://github.com/googlefonts/Freeman.git)";
+value = "Copyright 2023 The Freeman Project Authors (https://github.com/rfuenzalida/Freeman)";
 }
 );
 },
